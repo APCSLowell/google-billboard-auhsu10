@@ -2,7 +2,8 @@ public class GoogleBillboard {
 	public final static String e = "2.7182818284590452353602874713526624977572470936999595749669676277240766303535475945713821785251664274274663919320030599218174135966290435";  
 	public double digits=0;
 	public boolean primefound=false;
-	public static void setup()  
+	public boolean prime=true;
+	public void setup()  
 	{            
 	  //your code here 
 	  for(int i=2;i<e.length()-10;i++){
@@ -15,8 +16,7 @@ public class GoogleBillboard {
 	}
 	public static boolean isPrime(double dNum)  
 	{   
-	  //your code here   
-	  boolean prime=true;
+	  //your code here
 	  if(dNum<=1)
 	    prime=false;
 	  for(int i=2;i<=Math.sqrt(dNum);i++){
