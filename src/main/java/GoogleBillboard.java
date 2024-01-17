@@ -12,12 +12,8 @@ public class GoogleBillboard {
 	      primefound=true;
 	    }
 	  }
-	}  
-	public void draw()  
-	{   
-	  //not needed for this assignment
-	}  
-	public boolean isPrime(double dNum)  
+	}
+	public static boolean isPrime(double dNum)  
 	{   
 	  //your code here   
 	  boolean prime=true;
