@@ -7,7 +7,7 @@ public class GoogleBillboard {
     for(int i=2;i<e.length()-10;i++){
       digits=Double.parseDouble(e.substring(i,i+10));
       if(isPrime(digits)==true && primefound==false){
-        System.out.println(digits);
+        System.out.println(digits/(1000000000));
         primefound=true;
       }
     }
